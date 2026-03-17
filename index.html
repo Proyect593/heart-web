@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administrador HEART Web</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <img src="logo.png" alt="Logo HEART" onerror="this.style.display='none'">
+    <h1>Administrador HEART</h1>
+    <p>Panel web publicado en Firebase Hosting.</p>
+    <div class="notice">
+      Esta versión es estática para publicación web. Las funciones de backend (login, API y base de datos) requieren tu servidor Flask.
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="card">
+      <h2>Seguridad</h2>
+      <div class="row">
+        <button class="btn btn-steel" type="button">Reiniciar servidor</button>
+        <button class="btn btn-green" type="button">Copia de seguridad</button>
+        <button class="btn btn-violet" type="button">Cambiar claves</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Datos</h2>
+      <div class="row">
+        <button class="btn btn-blue" type="button">Edición</button>
+        <button class="btn btn-steel" type="button">Borrar novedades</button>
+      </div>
+    </section>
+  </main>
+</body>
+<script src="js/app.js"></script>
+</html>
