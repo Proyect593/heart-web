@@ -34,7 +34,7 @@ body {
     background: linear-gradient(180deg, var(--bg-top) 0%, var(--bg-bottom) 100%);
     position: relative;
     overflow-x: hidden;
-    padding: 28px 16px 40px;
+    padding: 0;
 }
 
 .bg-shape {
@@ -441,11 +441,6 @@ input:focus {
     display: none;
 }
 
-.login-page {
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-}
 
 .login-wrap {
     width: min(440px, 94vw);
